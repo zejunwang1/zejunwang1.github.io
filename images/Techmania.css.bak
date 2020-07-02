@@ -1,3 +1,14 @@
+/********************************************
+   AUTHOR:  			Erwin Aligam 
+   WEBSITE:   			http://www.styleshout.com/
+   TEMPLATE NAME: 	Techmania 1.0
+	TEMPLATE CODE: 	S-0003
+    VERSION:         1.1          	
+ *******************************************/
+ 
+/********************************************
+   HTML ELEMENTS
+********************************************/ 
 
 /* Top elements */
 * { margin:0; padding: 0; }
@@ -5,7 +16,7 @@
 body {
 	background-color: #3A3A3A;
  	color: #555; 
- 	font: 50%/1.5  Verdana, 'Trebuchet MS', arial, sans-serif;
+ 	font: 70%/1.5  Verdana, 'Trebuchet MS', arial, sans-serif;
  	text-align: center; 
  	margin: 15px 0;
 }  
@@ -27,28 +38,28 @@ h1, h2, h3, h4 {
 	font-weight: bold;
 }
 h1 {
-	font-size: 1.8em;	
+	font-size: 1.5em;	
 }
 h2 {
-	font-size: 1.7em;
+	font-size: 1.3em;
 	text-transform: uppercase;
 	color: #339900;
 }
 h3 {
-	font-size: 1.6em;
+	font-size: 1.1em;
 	text-transform: uppercase;
 	color: #333;
 	letter-spacing: 1px;
 }
 h4 {
-	font-size: 1.4em;
+	font-size: 1.1em;
 	color: #666;
 	letter-spacing: 1px;
 	padding: 0;
 	margin: 5px 40px; 
 }
 p {
-    font-size: 1.7em;	
+    font-size: 1.2em;	
 }
 
 h1, h2, h3, p { 
@@ -57,7 +68,6 @@ h1, h2, h3, p {
 }
 
 ul, ol {
-    font-size: 1.7em;	
 	margin: 10px 30px;
 	padding: 0 15px;	
 	color: #72A545;	
@@ -70,7 +80,7 @@ ul span, ol span {
 img {
 }
 img.float-right {
-	/*border: 2px solid #CCC;*/
+	border: 2px solid #CCC;
   margin: 5px 0px 10px 10px;  
 }
 img.float-left {
@@ -173,29 +183,22 @@ input.button {
    padding:0;	
    text-align: left;
    background-color:#FFF;
-   width: 990px;  	
+   width: 790px;  	
 }
 #content-wrap {
 	clear:both;
    margin:0; padding:0;
-	width: 990px;		
+	width: 790px;		
 }
 
 /* header */
 #header {
 	position: relative;
-    clear:left;
-    width: 990px;
-	height: 50px; 
-	margin: 0; padding: 0;
-	background: #006000 no-repeat left bottom;			
-}#header.old {
-	position: relative;
-    clear:left;
-    width: 990px;
+   clear:left;
+   width: 790px;
 	height: 135px; 
 	margin: 0; padding: 0;
-	background: #000 url(new_header.jpg) no-repeat left bottom;			
+	background: #000 url(headerbg.jpg) no-repeat left bottom;			
 }
 #header h1#logo-text {
 	position: absolute;
@@ -269,7 +272,7 @@ input.button {
 /* main content */
 #main {
 	float: left;
-	width: 685px;
+	width: 535px;
 	margin: 0; padding: 0;
 	background-color: inherit;
 }
@@ -289,7 +292,7 @@ input.button {
 /* sidebar */
 #sidebar {
 	float: right;
-	width: 295px;
+	width: 245px;
 	margin: 0 0 10px 0; padding: 0;
 	background-color: inherit;	
 }
