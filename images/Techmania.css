@@ -53,6 +53,7 @@ p {
 
 h1, h2, h3, p { 
 	padding: 0;
+/*margin: 10px 15px;*/
 	margin: 10px 10px; 
 }
 
@@ -97,7 +98,8 @@ acronym {
 }
 blockquote {
 	margin: 15px;
- 	/*padding: 0 0 0 32px;  	
+ 	/*padding: 0 0 0 32px;  */
+	padding: 8px;
   	background: #FAFAFA url(quote.gif) no-repeat 5px 10px !important; 
 	background-position: 8px 10px;
 	border: 1px solid #EAEAEA; 
