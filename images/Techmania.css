@@ -58,7 +58,8 @@ h1, h2, h3, p {
 
 ul, ol {
     font-size: 1.7em;	
-	margin: 10px 30px;
+	/*margin: 10px 30px;*/
+	margin: 10px 15px;
 	padding: 0 15px;	
 	color: #72A545;	
 }
@@ -78,7 +79,8 @@ img.float-left {
 }
 
 code {
-  margin: 5px 0;
+  /*margin: 5px 0;*/
+  margin: 5px 5px;
   padding: 10px;
   text-align: center;
   display: block;
@@ -95,7 +97,7 @@ acronym {
 }
 blockquote {
 	margin: 15px;
- 	padding: 0 0 0 32px;  	
+ 	/*padding: 0 0 0 32px;  	
   	background: #FAFAFA url(quote.gif) no-repeat 5px 10px !important; 
 	background-position: 8px 10px;
 	border: 1px solid #EAEAEA; 
